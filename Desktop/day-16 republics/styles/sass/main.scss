@@ -1,0 +1,92 @@
+.container {
+  max-width: 1990px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 305px;
+  height: 450px;
+  margin: 10px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid lightgray;
+  cursor: pointer;
+  transition: all 0.5s;
+  &:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+    img {
+      transform: scale(0.9);
+    }
+  }
+}
+
+.flag {
+  width: 100%;
+  height: 210px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px gray;
+}
+
+.fa-solid {
+  width: 20px;
+  height: 12px;
+}
+button {
+  cursor: pointer;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 25px;
+}
+.rep-info {
+  max-width: 400px;
+  margin: 0 auto;
+  img {
+    width: 300px;
+  }
+}
+#backButton {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 15px;
+  background-color: lightgray;
+  border: 1px solid transparent;
+  transition: all 0.4s;
+  margin-top: 15px;
+
+  :hover {
+    background-color: darkgray;
+  }
+  &:active {
+    transform: scale(1.04);
+    border: 1px solid black;
+  }
+}
+
+.population {
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.region {
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+.capital {
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 25px;
+}
